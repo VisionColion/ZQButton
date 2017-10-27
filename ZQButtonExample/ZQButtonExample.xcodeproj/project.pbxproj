@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		996AFDA21FA2D40700F2216A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 996AFDA11FA2D40700F2216A /* AppDelegate.m */; };
+		996AFDA51FA2D40700F2216A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996AFDA41FA2D40700F2216A /* ViewController.m */; };
+		996AFDA81FA2D40700F2216A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996AFDA61FA2D40700F2216A /* Main.storyboard */; };
+		996AFDAA1FA2D40700F2216A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996AFDA91FA2D40700F2216A /* Assets.xcassets */; };
+		996AFDAD1FA2D40700F2216A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996AFDAB1FA2D40700F2216A /* LaunchScreen.storyboard */; };
+		996AFDB01FA2D40700F2216A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 996AFDAF1FA2D40700F2216A /* main.m */; };
+		996AFDBD1FA2D86C00F2216A /* ZQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 996AFDB81FA2D43900F2216A /* ZQButton.m */; };
+		996AFDBE1FA2D87A00F2216A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 996AFDBC1FA2D71200F2216A /* NSString+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		996AFD9D1FA2D40700F2216A /* ZQButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		996AFDA01FA2D40700F2216A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		996AFDA11FA2D40700F2216A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		996AFDA31FA2D40700F2216A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		996AFDA41FA2D40700F2216A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		996AFDA71FA2D40700F2216A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		996AFDA91FA2D40700F2216A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996AFDAC1FA2D40700F2216A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		996AFDAE1FA2D40700F2216A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996AFDAF1FA2D40700F2216A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		996AFDB71FA2D43900F2216A /* ZQButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQButton.h; sourceTree = "<group>"; };
+		996AFDB81FA2D43900F2216A /* ZQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQButton.m; sourceTree = "<group>"; };
+		996AFDBB1FA2D71200F2216A /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		996AFDBC1FA2D71200F2216A /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		996AFD9A1FA2D40700F2216A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		996AFD941FA2D40700F2216A = {
+			isa = PBXGroup;
+			children = (
+				996AFD9F1FA2D40700F2216A /* ZQButtonExample */,
+				996AFD9E1FA2D40700F2216A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		996AFD9E1FA2D40700F2216A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				996AFD9D1FA2D40700F2216A /* ZQButtonExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		996AFD9F1FA2D40700F2216A /* ZQButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				996AFDBA1FA2D71200F2216A /* NSString+size */,
+				996AFDB61FA2D43900F2216A /* ZQButton */,
+				996AFDA01FA2D40700F2216A /* AppDelegate.h */,
+				996AFDA11FA2D40700F2216A /* AppDelegate.m */,
+				996AFDA31FA2D40700F2216A /* ViewController.h */,
+				996AFDA41FA2D40700F2216A /* ViewController.m */,
+				996AFDA61FA2D40700F2216A /* Main.storyboard */,
+				996AFDA91FA2D40700F2216A /* Assets.xcassets */,
+				996AFDAB1FA2D40700F2216A /* LaunchScreen.storyboard */,
+				996AFDAE1FA2D40700F2216A /* Info.plist */,
+				996AFDAF1FA2D40700F2216A /* main.m */,
+			);
+			path = ZQButtonExample;
+			sourceTree = "<group>";
+		};
+		996AFDB61FA2D43900F2216A /* ZQButton */ = {
+			isa = PBXGroup;
+			children = (
+				996AFDB71FA2D43900F2216A /* ZQButton.h */,
+				996AFDB81FA2D43900F2216A /* ZQButton.m */,
+			);
+			path = ZQButton;
+			sourceTree = "<group>";
+		};
+		996AFDBA1FA2D71200F2216A /* NSString+size */ = {
+			isa = PBXGroup;
+			children = (
+				996AFDBB1FA2D71200F2216A /* NSString+Size.h */,
+				996AFDBC1FA2D71200F2216A /* NSString+Size.m */,
+			);
+			path = "NSString+size";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		996AFD9C1FA2D40700F2216A /* ZQButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996AFDB31FA2D40700F2216A /* Build configuration list for PBXNativeTarget "ZQButtonExample" */;
+			buildPhases = (
+				996AFD991FA2D40700F2216A /* Sources */,
+				996AFD9A1FA2D40700F2216A /* Frameworks */,
+				996AFD9B1FA2D40700F2216A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQButtonExample;
+			productName = ZQButtonExample;
+			productReference = 996AFD9D1FA2D40700F2216A /* ZQButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		996AFD951FA2D40700F2216A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Colion;
+				TargetAttributes = {
+					996AFD9C1FA2D40700F2216A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 996AFD981FA2D40700F2216A /* Build configuration list for PBXProject "ZQButtonExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 996AFD941FA2D40700F2216A;
+			productRefGroup = 996AFD9E1FA2D40700F2216A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996AFD9C1FA2D40700F2216A /* ZQButtonExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		996AFD9B1FA2D40700F2216A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996AFDAD1FA2D40700F2216A /* LaunchScreen.storyboard in Resources */,
+				996AFDAA1FA2D40700F2216A /* Assets.xcassets in Resources */,
+				996AFDA81FA2D40700F2216A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		996AFD991FA2D40700F2216A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996AFDBD1FA2D86C00F2216A /* ZQButton.m in Sources */,
+				996AFDA51FA2D40700F2216A /* ViewController.m in Sources */,
+				996AFDB01FA2D40700F2216A /* main.m in Sources */,
+				996AFDA21FA2D40700F2216A /* AppDelegate.m in Sources */,
+				996AFDBE1FA2D87A00F2216A /* NSString+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		996AFDA61FA2D40700F2216A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996AFDA71FA2D40700F2216A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		996AFDAB1FA2D40700F2216A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996AFDAC1FA2D40700F2216A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		996AFDB11FA2D40700F2216A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		996AFDB21FA2D40700F2216A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		996AFDB41FA2D40700F2216A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mymy.ZQButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		996AFDB51FA2D40700F2216A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mymy.ZQButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		996AFD981FA2D40700F2216A /* Build configuration list for PBXProject "ZQButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996AFDB11FA2D40700F2216A /* Debug */,
+				996AFDB21FA2D40700F2216A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996AFDB31FA2D40700F2216A /* Build configuration list for PBXNativeTarget "ZQButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996AFDB41FA2D40700F2216A /* Debug */,
+				996AFDB51FA2D40700F2216A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 996AFD951FA2D40700F2216A /* Project object */;
+}
